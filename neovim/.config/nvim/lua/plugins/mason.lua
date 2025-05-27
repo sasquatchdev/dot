@@ -18,6 +18,7 @@ return {
 	config = function(_, opts)
 		require("mason-lspconfig").setup(opts)
 		vim.diagnostic.config({ virtual_text = false, virtual_lines = { current_line = true } })
+    require("lspconfig").taplo.setup({})
 	end,
 	keys = {
 		{ "K", vim.lsp.buf.hover, desc = "Open hover menu" },
