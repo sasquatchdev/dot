@@ -1,7 +1,7 @@
 return {
-  "ggandor/leap.nvim",
-  opts = {  },
-  keys = {
-    { "s", "<Plug>(leap-anywhere)", desc = "Leap anywhere" }
-  }
+	"ggandor/leap.nvim",
+	opts = {},
+	keys = {
+		{ "s", "<Plug>(leap-anywhere)", desc = "Leap anywhere" },
+	},
 }
